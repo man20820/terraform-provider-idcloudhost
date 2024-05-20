@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	idcloudhostAPI "github.com/bapung/idcloudhost-go-client-library/idcloudhost/api"
-	idcloudhostVM "github.com/bapung/idcloudhost-go-client-library/idcloudhost/vm"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	idcloudhostAPI "github.com/man20820/idcloudhost-go-client-library/tree/main/idcloudhost/api"
+	idcloudhostVM "github.com/man20820/idcloudhost-go-client-library/tree/main/idcloudhost/vm"
+	"github.com/hashicorp/terraform-plugin-sdk/tree/main/diag"
+	"github.com/hashicorp/terraform-plugin-sdk/tree/main/helper/schema"
 )
 
 func resourceVirtualMachine() *schema.Resource {

@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"strconv"
 
-	idcloudhostVM "github.com/bapung/idcloudhost-go-client-library/idcloudhost/vm"
-	idcloudhostDisk "github.com/bapung/idcloudhost-go-client-library/idcloudhost/disk"
-	idcloudhostFloatingIP "github.com/bapung/idcloudhost-go-client-library/idcloudhost/floatingip"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	idcloudhostVM "github.com/man20820/idcloudhost-go-client-library/tree/main/idcloudhost/vm"
+	idcloudhostDisk "github.com/man20820/idcloudhost-go-client-library/tree/main/idcloudhost/disk"
+	idcloudhostFloatingIP "github.com/man20820/idcloudhost-go-client-library/tree/main/idcloudhost/floatingip"
+	"github.com/hashicorp/terraform-plugin-sdk/tree/main/helper/schema"
 )
 
 func setVmResource(d *schema.ResourceData, vm *idcloudhostVM.VM) error {

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/bapung/terraform-provider-idcloudhost/idcloudhost"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
+	"github.com/man20820/terraform-provider-idcloudhost/idcloudhost"
+	"github.com/hashicorp/terraform-plugin-sdk/tree/main/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/tree/main/plugin"
 )
 
 func main() {

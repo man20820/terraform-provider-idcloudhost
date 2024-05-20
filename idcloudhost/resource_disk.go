@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	idcloudhostAPI "github.com/bapung/idcloudhost-go-client-library/idcloudhost/api"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	idcloudhostAPI "github.com/man20820/idcloudhost-go-client-library/tree/main/idcloudhost/api"
+	"github.com/hashicorp/terraform-plugin-sdk/tree/main/diag"
+	"github.com/hashicorp/terraform-plugin-sdk/tree/main/helper/schema"
 )
 
 func resourceDisk() *schema.Resource {
